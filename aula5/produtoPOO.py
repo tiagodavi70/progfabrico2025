@@ -4,7 +4,7 @@ import datetime
 
 class Produto():
 
-    def __init__(nome, preco, tipo):
+    def __init__(self, nome, preco, tipo):
         self.nome = nome
         self.preco = preco
         self.tipo = tipo
@@ -14,7 +14,7 @@ class Produto():
 
 class Venda():
 
-    def __init__(produto):
+    def __init__(self, produto):
         self.produto = produto
         self.precoVenda = produto.preco
         self.dataVenda = datetime.date
