@@ -8,5 +8,6 @@
 
 1. Crie uma classe `ContaBancaria` com os atributos `titular`, `saldo` e `numero_conta`. Adicione métodos para depositar, levantar e exibir saldo. Teste criando algumas contas e realize operações para essa várias contas.
 
-1. Implemente a classe `Felino`, e as subclasses `Gato`, `Tigre` e `Leão`. A classe Felino deve ter os atributos nome e peso, e um método que retorna se é doméstico ou não. Defina como deve ser o construtor de cada subclasse. Defina também usando polimorfismo se o Felino é ou não doméstico. Crie uma classe Zoologico com 40 animais para testar as classes criadas.
+1. Crie uma classe chamada Carro com os atributos marca, modelo, velocidade e ano. Crie um método que exiba essas informações. Depois, crie quatro objetos e mostre seus dados.
 
+1. Utilizando a classe da questão anterior crie um método idade para calcular a idade do carro e um método conversão para converter de `Km/h` para `MPH`. (`1 Km/h = 0.62137 milhas`)
