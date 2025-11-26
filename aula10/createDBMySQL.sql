@@ -1,15 +1,16 @@
-PRAGMA foreign_keys = ON;
+CREATE SCHEMA loja;
+USE loja;
 
 CREATE TABLE utilizadores (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
-    data_cadastro TEXT DEFAULT (DATE('now'))
+    data_cadastro DATETIME
 );
 
 CREATE TABLE pedidos (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
     id_utilizador INTEGER NOT NULL,
-    data_pedido TEXT DEFAULT (DATETIME('now')),
+    data_pedido DATETIME,
     valor_total DECIMAL(10,2) NOT NULL,
 
     FOREIGN KEY (id_utilizador) REFERENCES utilizadores(id)

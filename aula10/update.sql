@@ -1,11 +1,11 @@
-INSERT INTO utilizadores (nome) VALUES
+INSERT INTO utilizadores(nome) VALUES
 ('Ana Silva'),
 ('Bruno Pereira'),
 ('Carla Souza'),
 ('Diego Andrade'),
 ('Eduardo Lima');
 
-INSERT INTO pedidos (id_utilizador, valor_total) VALUES
+INSERT INTO pedidos(id_utilizador, valor_total) VALUES
 (1, 150.00),
 (1, 89.99),
 (1, 230.50),
